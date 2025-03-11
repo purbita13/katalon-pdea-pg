@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-1,Chrome 133.0.6943.142,,,11-03-2025 11:20:45,11-03-2025 11:21:07,21.817s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC1,Chrome 133.0.6943.142,,,11-03-2025 11:20:46,11-03-2025 11:20:51,5.454s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:20:46,11-03-2025 11:20:50,4.769s,PASSED
+"verifyElementPresent(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""), 0)",Chrome 133.0.6943.142,,,11-03-2025 11:20:50,11-03-2025 11:20:51,0.349s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:20:51,11-03-2025 11:20:51,0.138s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC2,Chrome 133.0.6943.142,,,11-03-2025 11:20:51,11-03-2025 11:20:55,3.654s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:20:51,11-03-2025 11:20:54,3.433s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:20:54,11-03-2025 11:20:55,0.171s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC3,Chrome 133.0.6943.142,,,11-03-2025 11:20:55,11-03-2025 11:20:59,4.407s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:20:55,11-03-2025 11:20:59,3.904s,PASSED
+"verifyElementVisible(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""), STOP_ON_FAILURE)",Chrome 133.0.6943.142,,,11-03-2025 11:20:59,11-03-2025 11:20:59,0.294s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:20:59,11-03-2025 11:20:59,0.139s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC4,Chrome 133.0.6943.142,,,11-03-2025 11:20:59,11-03-2025 11:21:03,3.951s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:20:59,11-03-2025 11:21:02,3.132s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:02,11-03-2025 11:21:03,0.619s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:21:03,11-03-2025 11:21:03,0.151s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC5,Chrome 133.0.6943.142,,,11-03-2025 11:21:03,11-03-2025 11:21:07,4.133s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:03,11-03-2025 11:21:06,3.320s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:06,11-03-2025 11:21:07,0.660s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:21:07,11-03-2025 11:21:07,0.144s,PASSED

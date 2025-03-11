@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-2,Chrome 133.0.6943.142,,,11-03-2025 11:21:28,11-03-2025 11:21:54,26.361s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC6,Chrome 133.0.6943.142,,,11-03-2025 11:21:28,11-03-2025 11:21:34,6.237s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:28,11-03-2025 11:21:33,4.580s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:33,11-03-2025 11:21:34,0.725s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), ""Username"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:34,11-03-2025 11:21:34,0.720s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC7,Chrome 133.0.6943.142,,,11-03-2025 11:21:34,11-03-2025 11:21:39,5.039s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:34,11-03-2025 11:21:38,3.489s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:38,11-03-2025 11:21:38,0.619s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), ""Password"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:38,11-03-2025 11:21:39,0.846s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC8,Chrome 133.0.6943.142,,,11-03-2025 11:21:39,11-03-2025 11:21:45,5.197s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:39,11-03-2025 11:21:43,3.520s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:43,11-03-2025 11:21:44,0.650s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), ""Username"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:44,11-03-2025 11:21:44,0.822s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:21:44,11-03-2025 11:21:45,0.156s,PASSED
+,,,,,,,
+Test Cases/FrontPage2/PDEA_Katalon_TC10,Chrome 133.0.6943.142,,,11-03-2025 11:21:45,11-03-2025 11:21:50,5.627s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:45,11-03-2025 11:21:48,3.421s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:48,11-03-2025 11:21:49,0.655s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), ""Username"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:49,11-03-2025 11:21:49,0.802s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), ""Password"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:49,11-03-2025 11:21:50,0.569s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:21:50,11-03-2025 11:21:50,0.139s,PASSED
+,,,,,,,
+Test Cases/FrontPage2/PDEA_Katalon_TC11,Chrome 133.0.6943.142,,,11-03-2025 11:21:50,11-03-2025 11:21:54,4.021s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:21:50,11-03-2025 11:21:53,3.225s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:21:53,11-03-2025 11:21:54,0.599s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:21:54,11-03-2025 11:21:54,0.154s,PASSED

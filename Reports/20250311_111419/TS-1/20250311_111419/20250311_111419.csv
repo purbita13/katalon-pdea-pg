@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-1,Chrome 133.0.6943.142,,,11-03-2025 11:14:39,11-03-2025 11:15:49,1m - 9.862s,FAILED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC1,Chrome 133.0.6943.142,,,11-03-2025 11:14:53,11-03-2025 11:14:56,3.680s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:14:53,11-03-2025 11:14:56,3.364s,PASSED
+"verifyElementPresent(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""), 0)",Chrome 133.0.6943.142,,,11-03-2025 11:14:56,11-03-2025 11:14:56,0.305s,FAILED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC2,Chrome 133.0.6943.142,,,11-03-2025 11:14:56,11-03-2025 11:15:00,3.632s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:14:56,11-03-2025 11:15:00,3.364s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,11-03-2025 11:15:00,11-03-2025 11:15:00,0.223s,PASSED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC3,Chrome 133.0.6943.142,,,11-03-2025 11:15:13,11-03-2025 11:15:16,3.830s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:15:13,11-03-2025 11:15:16,3.467s,PASSED
+"verifyElementVisible(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""), STOP_ON_FAILURE)",Chrome 133.0.6943.142,,,11-03-2025 11:15:16,11-03-2025 11:15:16,0.352s,FAILED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC4,Chrome 133.0.6943.142,,,11-03-2025 11:15:28,11-03-2025 11:15:32,4.056s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:15:28,11-03-2025 11:15:32,3.746s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:15:32,11-03-2025 11:15:32,0.301s,FAILED
+,,,,,,,
+Test Cases/FrontPage1/PDEA_Katalon_TC5,Chrome 133.0.6943.142,,,11-03-2025 11:15:45,11-03-2025 11:15:49,3.673s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 133.0.6943.142,,,11-03-2025 11:15:45,11-03-2025 11:15:49,3.363s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 133.0.6943.142,,,11-03-2025 11:15:49,11-03-2025 11:15:49,0.303s,FAILED

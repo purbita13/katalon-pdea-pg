@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-1" time="21.817" tests="5" failures="0" errors="0">
+   <testsuite name="TS-1" tests="5" failures="0" errors="0" time="21.817" skipped="0" timestamp="11-03-2025T11:20:45" hostname="PurbitaGhosh - DESKTOP-4AU99FE" id="Test Suites/TS-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\AVTNN6744\\git\\katalon-pdea-pg\\Reports\\20250311_112038\\TS-1\\20250311_112038"/>
+         <property name="logFiles" value="C:\\Users\\AVTNN6744\\git\\katalon-pdea-pg\\Reports\\20250311_112038\\TS-1\\20250311_112038\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PurbitaGhosh - DESKTOP-4AU99FE"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.142"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="a8cec16c9109a953db8c0ce375172ddc"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FrontPage1/PDEA_Katalon_TC1" time="5.454" classname="Test Cases/FrontPage1/PDEA_Katalon_TC1" status="PASSED">
+         <system-out><![CDATA[11-03-2025T11:20:46 - [TEST_CASE][PASSED] - Test Cases/FrontPage1/PDEA_Katalon_TC1: Test Cases/FrontPage1/PDEA_Katalon_TC1
+
+11-03-2025T11:20:46 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-03-2025T11:20:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-03-2025T11:20:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CuraHomepage/btn_MakeAppointment"), 0): Object 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is present
+
+11-03-2025T11:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-03-2025T11:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is present
+
+11-03-2025T11:20:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-03-2025T11:20:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontPage1/PDEA_Katalon_TC2" time="3.654" classname="Test Cases/FrontPage1/PDEA_Katalon_TC2" status="PASSED">
+         <system-out><![CDATA[11-03-2025T11:20:51 - [TEST_CASE][PASSED] - Test Cases/FrontPage1/PDEA_Katalon_TC2: Test Cases/FrontPage1/PDEA_Katalon_TC2
+
+11-03-2025T11:20:51 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-03-2025T11:20:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-03-2025T11:20:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-03-2025T11:20:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontPage1/PDEA_Katalon_TC3" time="4.407" classname="Test Cases/FrontPage1/PDEA_Katalon_TC3" status="PASSED">
+         <system-out><![CDATA[11-03-2025T11:20:55 - [TEST_CASE][PASSED] - Test Cases/FrontPage1/PDEA_Katalon_TC3: Test Cases/FrontPage1/PDEA_Katalon_TC3
+
+11-03-2025T11:20:55 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-03-2025T11:20:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-03-2025T11:20:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CuraHomepage/btn_MakeAppointment"), STOP_ON_FAILURE): Object 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is visible
+
+11-03-2025T11:20:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is visible
+
+11-03-2025T11:20:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-03-2025T11:20:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontPage1/PDEA_Katalon_TC4" time="3.951" classname="Test Cases/FrontPage1/PDEA_Katalon_TC4" status="PASSED">
+         <system-out><![CDATA[11-03-2025T11:20:59 - [TEST_CASE][PASSED] - Test Cases/FrontPage1/PDEA_Katalon_TC4: Test Cases/FrontPage1/PDEA_Katalon_TC4
+
+11-03-2025T11:20:59 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:20:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-03-2025T11:20:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-03-2025T11:21:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-03-2025T11:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-03-2025T11:21:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-03-2025T11:21:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontPage1/PDEA_Katalon_TC5" time="4.133" classname="Test Cases/FrontPage1/PDEA_Katalon_TC5" status="PASSED">
+         <system-out><![CDATA[11-03-2025T11:21:03 - [TEST_CASE][PASSED] - Test Cases/FrontPage1/PDEA_Katalon_TC5: Test Cases/FrontPage1/PDEA_Katalon_TC5
+
+11-03-2025T11:21:03 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:21:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-03-2025T11:21:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-03-2025T11:21:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+11-03-2025T11:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-03-2025T11:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-03-2025T11:21:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-03-2025T11:21:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-03-2025T11:20:45 - [TEST_SUITE][PASSED] - TS-1: Test Cases/FrontPage1/PDEA_Katalon_TC5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
